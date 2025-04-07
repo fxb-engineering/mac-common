@@ -75,6 +75,7 @@ export interface CustomJobUpdate {
   };
   jobId: string;
   boxId: string;
+  stepId: string;
   operation: string;
 }
 export const JOBTOPICS = {

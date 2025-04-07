@@ -280,6 +280,10 @@ const en = {
       UNKNOWN: 'unknown',
     },
     steps: {
+      default: {
+        registered: 'Job registriert',
+        timeout: 'Timeout',
+      },
       'block-orders': {
         allOrdersFinished: 'All orders finished',
         failed: 'Orders could not be blocked',

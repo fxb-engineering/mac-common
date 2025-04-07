@@ -142,5 +142,8 @@ export function translateJob(locale: Locale | LocaleExtended, job: JobDescriptio
 }
 
 export function translateJobStep(locale: Locale | LocaleExtended, jobName: string, stepName: string) {
+  if (stepName in de.jobs.steps.default) {
+    return tt(`jobs.steps.default.${stepName}`, locale);
+  }
   return tt(`jobs.steps.${jobName}.${stepName}`, locale);
 }
