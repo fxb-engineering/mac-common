@@ -287,6 +287,10 @@ const es: Translation = {
       UNKNOWN: 'desconocido',
     },
     steps: {
+      default: {
+        registered: 'Job registrado',
+        timeout: 'Tiempo agotado',
+      },
       'block-orders': {
         allOrdersFinished: 'Todos los pedidos terminados',
         failed: 'No se pudieron bloquear los pedidos',

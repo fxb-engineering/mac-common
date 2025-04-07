@@ -286,6 +286,10 @@ const de: Translation = {
       },
     },
     steps: {
+      default: {
+        registered: 'Job registriert',
+        timeout: 'Timeout',
+      },
       'block-orders': {
         allOrdersFinished: 'Alle Bestellungen abgeschlossen',
         failed: 'Bestellungen konnten nicht gesperrt werden',

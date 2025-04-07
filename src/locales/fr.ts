@@ -289,6 +289,10 @@ const fr: Translation = {
       UNKNOWN: 'inconnue',
     },
     steps: {
+      default: {
+        registered: 'Job enregistré',
+        timeout: 'Temps écoulé',
+      },
       'block-orders': {
         allOrdersFinished: 'Toutes les commandes terminées',
         failed: "Les commandes n'ont pas pu être bloquées",
