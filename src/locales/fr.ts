@@ -292,6 +292,7 @@ const fr: Translation = {
       default: {
         registered: 'Job enregistré',
         timeout: 'Temps écoulé',
+        cancelled: 'Job annulé',
       },
       'block-orders': {
         allOrdersFinished: 'Toutes les commandes terminées',

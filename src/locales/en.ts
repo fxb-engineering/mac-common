@@ -281,8 +281,9 @@ const en = {
     },
     steps: {
       default: {
-        registered: 'Job registriert',
-        timeout: 'Timeout',
+        registered: 'Device has acknowledged and scheduled the job for execution',
+        timeout: 'Failed due to timeout',
+        cancelled: 'Cancelled',
       },
       'block-orders': {
         allOrdersFinished: 'All orders finished',
