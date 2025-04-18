@@ -288,8 +288,9 @@ const es: Translation = {
     },
     steps: {
       default: {
-        registered: 'Job registrado',
-        timeout: 'Tiempo agotado',
+        registered: 'Trabajo registrado',
+        timeout: 'Trabajo falló debido a un tiempo de espera',
+        cancelled: 'Trabajo cancelado',
       },
       'block-orders': {
         allOrdersFinished: 'Todos los pedidos terminados',

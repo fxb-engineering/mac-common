@@ -287,8 +287,9 @@ const de: Translation = {
     },
     steps: {
       default: {
-        registered: 'Job registriert',
-        timeout: 'Timeout',
+        registered: 'Gerät hat Empfang bestätigt und den Job zur Ausführung angenommen',
+        timeout: 'Fehlgeschlagen aufgrund von Timeout',
+        cancelled: 'Job wurde abgebrochen',
       },
       'block-orders': {
         allOrdersFinished: 'Alle Bestellungen abgeschlossen',
