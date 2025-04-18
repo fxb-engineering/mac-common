@@ -142,11 +142,13 @@ export function translateJob(locale: Locale | LocaleExtended, job: JobDescriptio
 }
 
 export function translateJobStep(locale: Locale | LocaleExtended, jobName: string, stepName: string) {
-  if (jobName in de.jobs && stepName in de.jobs[jobName as keyof typeof de.jobs]) {
-    return tt(`jobs.${jobName}.${stepName}`, locale);
+  if (stepName in de.jobs.steps.common) {
+    return tt(`jobs.steps.common.${stepName}`, locale);
   }
-  if (stepName in de.jobs.steps.default) {
-    return tt(`jobs.steps.default.${stepName}`, locale);
+
+  const jobSteps = de.jobs.steps[jobName as keyof typeof de.jobs.steps];
+  if (jobName in de.jobs.steps && jobSteps && typeof jobSteps === 'object' && stepName in jobSteps) {
+    return tt(`jobs.steps.${jobName}.${stepName}`, locale);
   }
   return stepName;
 }

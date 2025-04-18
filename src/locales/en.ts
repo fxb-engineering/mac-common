@@ -280,11 +280,6 @@ const en = {
       UNKNOWN: 'unknown',
     },
     steps: {
-      default: {
-        registered: 'Device has acknowledged and scheduled the job for execution',
-        timeout: 'Failed due to timeout',
-        cancelled: 'Cancelled',
-      },
       'block-orders': {
         allOrdersFinished: 'All orders finished',
         failed: 'Orders could not be blocked',
@@ -298,6 +293,9 @@ const en = {
         started: 'Device test started',
       },
       common: {
+        registered: 'Device has acknowledged and scheduled the job for execution',
+        timeout: 'Failed due to timeout',
+        cancelled: 'Cancelled',
         alreadyInProgress:
           'Received a job in progress that should not survive agent restart, so it must have failed before. Explicitly failing now',
         failed: 'Job failed to execute',

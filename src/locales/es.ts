@@ -287,11 +287,6 @@ const es: Translation = {
       UNKNOWN: 'desconocido',
     },
     steps: {
-      default: {
-        registered: 'Trabajo registrado',
-        timeout: 'Trabajo falló debido a un tiempo de espera',
-        cancelled: 'Trabajo cancelado',
-      },
       'block-orders': {
         allOrdersFinished: 'Todos los pedidos terminados',
         failed: 'No se pudieron bloquear los pedidos',
@@ -305,6 +300,9 @@ const es: Translation = {
         started: 'Prueba del dispositivo iniciada',
       },
       common: {
+        registered: 'Trabajo registrado',
+        timeout: 'Trabajo falló debido a un tiempo de espera',
+        cancelled: 'Trabajo cancelado',
         alreadyInProgress:
           'Se recibió un trabajo en curso que no debería sobrevivir al reinicio del agente, por lo que debe haber fallado antes. \nExplícitamente fallando ahora',
         failed: 'No se pudo ejecutar el trabajo',

@@ -289,11 +289,6 @@ const fr: Translation = {
       UNKNOWN: 'inconnue',
     },
     steps: {
-      default: {
-        registered: 'Job enregistré',
-        timeout: 'Temps écoulé',
-        cancelled: 'Job annulé',
-      },
       'block-orders': {
         allOrdersFinished: 'Toutes les commandes terminées',
         failed: "Les commandes n'ont pas pu être bloquées",
@@ -307,6 +302,9 @@ const fr: Translation = {
         started: "Le test de l'appareil a commencé",
       },
       common: {
+        registered: 'Job enregistré',
+        timeout: 'Temps écoulé',
+        cancelled: 'Job annulé',
         alreadyInProgress:
           "Reçu un travail en cours qui ne devrait pas survivre au redémarrage de l'agent, il doit donc avoir échoué auparavant. \nÉchec explicite maintenant",
         failed: "Échec de l'exécution de la tâche",

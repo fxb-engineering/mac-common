@@ -286,11 +286,6 @@ const de: Translation = {
       },
     },
     steps: {
-      default: {
-        registered: 'Gerät hat Empfang bestätigt und den Job zur Ausführung angenommen',
-        timeout: 'Fehlgeschlagen aufgrund von Timeout',
-        cancelled: 'Job wurde abgebrochen',
-      },
       'block-orders': {
         allOrdersFinished: 'Alle Bestellungen abgeschlossen',
         failed: 'Bestellungen konnten nicht gesperrt werden',
@@ -304,6 +299,9 @@ const de: Translation = {
         started: 'Gerätetest gestartet',
       },
       common: {
+        registered: 'Gerät hat Empfang bestätigt und den Job zur Ausführung angenommen',
+        timeout: 'Fehlgeschlagen aufgrund von Timeout',
+        cancelled: 'Job wurde abgebrochen',
         alreadyInProgress:
           'Es wurde versucht einen Befehl auszuführen, der sich bereits in Ausführung befindet. Da der Zustand unbekannt ist, wird der Befehl abgebrochen.',
         failed: 'Job konnte nicht ausgeführt werden',
