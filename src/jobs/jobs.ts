@@ -328,7 +328,7 @@ export const jobs: JobDescription[] = [
   },
   {
     name: 'update',
-    isAdminOnly: true,
+    isAdminOnly: false,
     icon: refreshAlert,
     category: 'system',
     timeout: 10080,
