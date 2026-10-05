@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "lib": ["es2020", "dom"],
     "module": "ES6",
     "declaration": true,
     "resolveJsonModule": true,
     "outDir": "./lib",
     "strict": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "rootDir": "src",
     "esModuleInterop": true
   },
