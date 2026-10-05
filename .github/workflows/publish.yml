@@ -1,0 +1,30 @@
+name: Publish
+
+# Runs when a version tag is pushed (`npm version <major|minor|patch>` then `git push --follow-tags`).
+# Publishes via npm trusted publishing (OIDC), so no npm token is needed.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          registry-url: https://registry.npmjs.org
+          cache: npm
+      - name: Check tag matches package version
+        run: test "${GITHUB_REF_NAME}" = "v$(node -p "require('./package.json').version")"
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npx vitest run
+      - run: npm run check-package
+      - run: npm publish

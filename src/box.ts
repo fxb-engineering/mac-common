@@ -1,5 +1,5 @@
-import { DeviceState, IDevice } from './device';
-import { Locale, LocaleExtended } from './locales';
+import { DeviceState, IDevice } from './device.js';
+import { Locale, LocaleExtended } from './locales.js';
 export type DeviceType =
   | 'Robot'
   | 'CoffeeMachine_WMF9000s'

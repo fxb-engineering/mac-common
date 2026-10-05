@@ -1,4 +1,4 @@
-import type { BoxState } from '../box';
+import type { BoxState } from '../box.js';
 /**
  * Helper function to create the base topic for a job.
  * @param thingName - The unique ID or thing name of the box.

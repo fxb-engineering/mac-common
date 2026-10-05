@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
-import { jobs } from './jobs';
-import de from '../locales/de';
+import { jobs } from './jobs.js';
+import de from '../locales/de.js';
 
 /**
  * Test jobs.

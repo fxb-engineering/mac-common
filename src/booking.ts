@@ -1,6 +1,6 @@
-import { calculatePrice, TerminalOrder } from './order';
-import { BeverageConfiguration } from './product';
-import { VoucherDto } from './voucher';
+import { calculatePrice, TerminalOrder } from './order.js';
+import { BeverageConfiguration } from './product.js';
+import { VoucherDto } from './voucher.js';
 
 /**
  * Booking beverages are single drink items of a booking order.

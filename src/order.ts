@@ -1,5 +1,5 @@
-import { BeverageConfiguration } from './product';
-import { calculateVoucherValue, VoucherDto } from './voucher';
+import { BeverageConfiguration } from './product.js';
+import { calculateVoucherValue, VoucherDto } from './voucher.js';
 
 /**
  * Queued: order is in the queue, production pending

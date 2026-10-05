@@ -1,4 +1,4 @@
-import { VoucherDto } from '../voucher';
+import { VoucherDto } from '../voucher.js';
 
 export const samplePercentVoucher: VoucherDto = {
   id: 'MYAPP100',

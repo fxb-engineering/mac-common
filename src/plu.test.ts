@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { productTranslations, translateDeviceState, getProduct } from './translate';
-import { Locale } from './locales';
-import { sampleBoxConfig } from './sample-data/sampleBox';
+import { productTranslations, translateDeviceState, getProduct } from './translate.js';
+import { Locale } from './locales.js';
+import { sampleBoxConfig } from './sample-data/sampleBox.js';
 
 const PLUs: number[] = Object.keys(productTranslations.de).map((PLU) => parseInt(PLU, 10));
 const drinks = PLUs.filter((p) => p % 50 === 0 && p !== 2300); // 2300 is a special case, legacy product

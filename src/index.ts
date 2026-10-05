@@ -1,11 +1,11 @@
-export * from './translate';
-export type { Side } from './device';
-export type { BoxState, ConnectionState, IBox } from './box';
-export type { Locale, LocaleExtended } from './locales';
-export { toLocale } from './locales';
-export type { VoucherType, VoucherState, VoucherBaseOption, RedeemingDevice } from './voucher';
-export { VoucherConfigurationDto, VoucherDto } from './voucher';
-export type { IVoucherConfiguration, VoucherUsage, VoucherUsageDto, calculateVoucherValue } from './voucher';
+export * from './translate.js';
+export type { Side } from './device.js';
+export type { BoxState, ConnectionState, IBox } from './box.js';
+export type { Locale, LocaleExtended } from './locales.js';
+export { toLocale } from './locales.js';
+export type { VoucherType, VoucherState, VoucherBaseOption, RedeemingDevice } from './voucher.js';
+export { VoucherConfigurationDto, VoucherDto } from './voucher.js';
+export type { IVoucherConfiguration, VoucherUsage, VoucherUsageDto, calculateVoucherValue } from './voucher.js';
 export {
   ButtonNumberCondition,
   ProductConfiguration,
@@ -28,27 +28,27 @@ export {
   convertToSmallUsUnits,
   convertToLargeUsUnits,
   getCurrentSeason,
-} from './product';
-export * from './jobs/job';
+} from './product.js';
+export * from './jobs/job.js';
 
-export { IDevice, IRefillableDevice, DeviceState, IDeviceUpdateMessage } from './device';
-export { BoxConfig, IBoxPresence, TaxConfig, BoxReduced } from './box';
-export type { Origin, OrderStatus } from './order';
-export { ILiveOrder, LiveOrder } from './order';
-export { ProductTranslation, SeasonalProductTranslation } from './plu';
-export type { ProductTranslation as TranslationFile } from './plu';
-export { sampleBoxConfig } from './sample-data/sampleBox';
+export { IDevice, IRefillableDevice, DeviceState, IDeviceUpdateMessage } from './device.js';
+export { BoxConfig, IBoxPresence, TaxConfig, BoxReduced } from './box.js';
+export type { Origin, OrderStatus } from './order.js';
+export { ILiveOrder, LiveOrder } from './order.js';
+export { ProductTranslation, SeasonalProductTranslation } from './plu.js';
+export type { ProductTranslation as TranslationFile } from './plu.js';
+export { sampleBoxConfig } from './sample-data/sampleBox.js';
 export {
   samplePercentVoucher,
   samplePriceVoucher,
   sampleBeverageVoucher,
   sampleVoucher4,
   sampleVoucher5,
-} from './sample-data/sampleVoucher';
-export { sampleProductMatrix } from './sample-data/sampleProductMatrix';
-export { sampleLiveOrder1, sampleLiveOrder2, sampleLiveOrder3, sampleLiveOrder4 } from './sample-data/sampleOrders';
-export type { Unit } from './product';
-export { BookingBeverage, BookingOrder } from './booking';
+} from './sample-data/sampleVoucher.js';
+export { sampleProductMatrix } from './sample-data/sampleProductMatrix.js';
+export { sampleLiveOrder1, sampleLiveOrder2, sampleLiveOrder3, sampleLiveOrder4 } from './sample-data/sampleOrders.js';
+export type { Unit } from './product.js';
+export { BookingBeverage, BookingOrder } from './booking.js';
 export {
   codePrefix,
   EventSeverity,
@@ -56,5 +56,5 @@ export {
   EventAction,
   SharedEventCodes,
   EventTemplate,
-} from './events/event';
-export { jobs } from './jobs/jobs';
+} from './events/event.js';
+export { jobs } from './jobs/jobs.js';

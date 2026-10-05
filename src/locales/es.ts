@@ -1,4 +1,4 @@
-import { Translation } from './en';
+import { Translation } from './en.js';
 
 const es: Translation = {
   deviceStates: {
