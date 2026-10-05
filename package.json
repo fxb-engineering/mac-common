@@ -23,7 +23,7 @@
     "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
     "build": "npm run clean && tsc",
     "prepack": "npm run build",
-    "check-package": "publint && attw --pack --profile esm-only",
+    "check-package": "npm run build && publint && attw --pack --profile esm-only",
     "prettier": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
