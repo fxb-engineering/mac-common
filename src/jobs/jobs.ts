@@ -346,7 +346,7 @@ export const jobs: JobDescription[] = [
   },
   {
     name: 'trash',
-    timeout: 30,
+    timeout: 10,
     serverstates: ['Paused'],
     category: 'troubleshooting',
     icon: trash,
@@ -372,7 +372,7 @@ export const jobs: JobDescription[] = [
   },
   {
     name: 'restart-device',
-    timeout: 60,
+    timeout: 20,
     icon: rotate2,
     category: 'troubleshooting',
     serverstates: ['Okay', 'Paused', 'FatalError'],
@@ -385,7 +385,7 @@ export const jobs: JobDescription[] = [
   },
   {
     name: 'deactivate-device',
-    timeout: 15,
+    timeout: 5,
     icon: handStop,
     category: 'troubleshooting',
     parameters: [
@@ -557,7 +557,7 @@ export const jobs: JobDescription[] = [
   },
   {
     name: 'start-maintenance',
-    timeout: 30,
+    timeout: 15,
     icon: firstAidKit,
     category: 'schedule',
     serverstates: ['Okay', 'Paused', 'FatalError'],
@@ -572,7 +572,7 @@ export const jobs: JobDescription[] = [
   },
   {
     name: 'end-maintenance',
-    timeout: 30,
+    timeout: 10,
     category: 'schedule',
     icon: firstAidKitOff,
     serverstates: ['Maintenance'],
