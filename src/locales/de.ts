@@ -360,6 +360,7 @@ const de: Translation = {
         registered: 'Neustart registriert',
         scheduled: 'Server wird in einer Minute neugestartet',
         success: 'Neustart abgeschlossen und Anwendung gestartet',
+        waitForOrders: 'Warte, bis Bestellungen abgeschlossen sind',
         waitOrdersFinished: 'Warte, bis Bestellungen abgeschlossen sind',
         waitUntilPossible: 'Warte bis Neustart durchgeführt werden kann',
       },
@@ -402,6 +403,7 @@ const de: Translation = {
         notPossible: 'Gerät konnte nicht neu gestartet werden',
         restarted: 'Gerät neu gestartet',
         sentRequest: 'Befehl zum Neustart gesendet',
+        started: 'Befehl zum Neustart gesendet',
       },
       'robot-command': {
         commandFailed: 'Befehl fehlgeschlagen',
@@ -468,6 +470,7 @@ const de: Translation = {
       update: {
         allOrdersFinished: 'Alle Bestellungen abgeschlossen',
         downloadFinished: 'Download beendet',
+        downloadedFinished: 'Download beendet',
         downloading: 'Update wird heruntergeladen',
         restartedApplications: 'Anwendungen neu gestartet',
         restartingApplications: 'Anwendungen neu starten',
@@ -482,6 +485,7 @@ const de: Translation = {
         credentials: 'Gültige Anmeldeinformationen zum Hochladen auf S3 erhalten',
         filesUploaded: 'Protokolldateien auf S3 hochgeladen',
         filesWritten: 'Protokolldateien auf die Festplatte geschrieben',
+        noCredentials: 'Keine gültigen Anmeldeinformationen zum Hochladen auf S3',
         registered: 'Job zum Hochladen von Protokollen registriert',
       },
     },

@@ -361,6 +361,7 @@ const es: Translation = {
         registered: 'reiniciar registrado',
         scheduled: 'El servidor se reiniciará en un minuto.',
         success: 'Reinicio completo y aplicación iniciada',
+        waitForOrders: 'Esperar a que se completen los pedidos',
         waitOrdersFinished: 'Esperar a que se completen los pedidos',
         waitUntilPossible: 'Espere hasta que se pueda realizar el reinicio',
       },
@@ -403,6 +404,7 @@ const es: Translation = {
         notPossible: 'No se pudo reiniciar el dispositivo',
         restarted: 'Dispositivo reiniciado',
         sentRequest: 'Solicitud de reinicio enviada',
+        started: 'Solicitud de reinicio enviada',
       },
       'robot-command': {
         commandFailed: 'Error de comando',
@@ -469,6 +471,7 @@ const es: Translation = {
       update: {
         allOrdersFinished: 'Todos los pedidos terminados',
         downloadFinished: 'Descarga finalizada',
+        downloadedFinished: 'Descarga finalizada',
         downloading: 'Descargando actualización',
         restartedApplications: 'Aplicaciones reiniciadas',
         restartingApplications: 'Reinicio de aplicaciones',
@@ -483,6 +486,7 @@ const es: Translation = {
         credentials: 'Credenciales válidas recibidas para cargar a S3',
         filesUploaded: 'Archivos de registro cargados en S3',
         filesWritten: 'Escribió archivos de registro en el disco',
+        noCredentials: 'No se recibieron credenciales válidas para cargar a S3',
         registered: 'Trabajo de carga de registros registrado',
       },
     },

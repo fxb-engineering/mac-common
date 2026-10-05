@@ -144,12 +144,41 @@ export function translateJob(locale: Locale | LocaleExtended, job: JobDescriptio
   return translation;
 }
 
-export function translateJobStep(locale: Locale | LocaleExtended, jobName: string, stepName: string) {
-  if (jobName in de.jobs && stepName in de.jobs[jobName as keyof typeof de.jobs]) {
-    return tt(`jobs.${jobName}.${stepName}`, locale);
+export function translateJobStep(locale: Locale | LocaleExtended, jobName: string, stepName?: string) {
+  if (!stepName) {
+    return '';
   }
-  if (stepName in de.jobs.steps.default) {
-    return tt(`jobs.steps.default.${stepName}`, locale);
+  const step = stepName.trim();
+
+  // some jobs only have a single string instead of step translations
+  const jobSteps: unknown = de.jobs.steps[jobName as keyof typeof de.jobs.steps];
+  if (typeof jobSteps === 'object' && jobSteps !== null && step in jobSteps) {
+    return tt(`jobs.steps.${jobName}.${step}`, locale);
   }
-  return stepName;
+  if (step in de.jobs.steps.common) {
+    return tt(`jobs.steps.common.${step}`, locale);
+  }
+  if (step in de.jobs.steps.default) {
+    return tt(`jobs.steps.default.${step}`, locale);
+  }
+  return formatFreeTextStep(step);
+}
+
+// devices sometimes send free text instead of a step key, e.g. JSON encoded errors or custom payloads
+function formatFreeTextStep(step: string) {
+  let text = step;
+  if (text.length >= 2 && text.startsWith('"') && text.endsWith('"')) {
+    try {
+      const parsed: unknown = JSON.parse(text);
+      if (typeof parsed === 'string') {
+        text = parsed;
+      }
+    } catch {
+      // not valid JSON, keep the original text
+    }
+  }
+  if (text.startsWith('CUSTOM#')) {
+    text = text.slice('CUSTOM#'.length);
+  }
+  return text;
 }
