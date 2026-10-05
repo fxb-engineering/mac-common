@@ -1,4 +1,4 @@
-import { BeverageConfiguration, BeverageConfigurationBase } from './product';
+import { BeverageConfiguration, BeverageConfigurationBase } from './product.js';
 
 /**
  * The base option of a voucher. This determines if the voucher can be used multiple times or only once.

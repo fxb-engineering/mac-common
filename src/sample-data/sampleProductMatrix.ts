@@ -7,7 +7,7 @@ import {
   ProductConfiguration,
   Season,
   SizeName,
-} from '../product';
+} from '../product.js';
 
 export const sampleProductMatrix: {
   extras: Record<string, ExtraConfiguration>;

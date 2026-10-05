@@ -5,7 +5,7 @@ import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   {
-    ignores: ['**/*.js', '**/*.cjs', '**/*.mjs', 'build/', 'lib/', '.svelte-kit/', 'package/', 'coverage/', 'docs/'],
+    ignores: ['**/*.js', '**/*.cjs', '**/*.mjs', 'build/', 'dist/', 'lib/', '.svelte-kit/', 'package/', 'coverage/', 'docs/'],
   },
   js.configs.recommended,
   tseslint.configs.recommended,

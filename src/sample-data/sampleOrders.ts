@@ -1,4 +1,4 @@
-import { ILiveOrder } from '../order';
+import { ILiveOrder } from '../order.js';
 
 export const sampleLiveOrder1: ILiveOrder = {
   id: 'AttXjIb1EM',

@@ -1,6 +1,6 @@
 import { describe, expect, it, test } from 'vitest';
-import { ILiveOrder, LiveOrder } from './order';
-import { sampleLiveOrder1, sampleLiveOrder2, sampleLiveOrder3, sampleLiveOrder4 } from './sample-data/sampleOrders';
+import { ILiveOrder, LiveOrder } from './order.js';
+import { sampleLiveOrder1, sampleLiveOrder2, sampleLiveOrder3, sampleLiveOrder4 } from './sample-data/sampleOrders.js';
 
 describe('testing order constructor', () => {
   it('should create a new order', () => {

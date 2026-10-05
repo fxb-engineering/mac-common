@@ -1,4 +1,4 @@
-import { DeviceType } from '../device';
+import { DeviceType } from '../device.js';
 
 export const codePrefix = (device: DeviceType) => {
   switch (device) {

@@ -1,13 +1,13 @@
-import { DeviceState } from './device';
-import { BoxState } from './box';
-import { Locale, LocaleExtended, toLocale } from './locales';
-import { DeProducts, EnProducts, EsProducts, FrProducts, ProductTranslation, ProductTranslationFile } from './plu';
+import { DeviceState } from './device.js';
+import { BoxState } from './box.js';
+import { Locale, LocaleExtended, toLocale } from './locales.js';
+import { DeProducts, EnProducts, EsProducts, FrProducts, ProductTranslation, ProductTranslationFile } from './plu.js';
 
-import de from './locales/de';
-import en, { Translation } from './locales/en';
-import fr from './locales/fr';
-import es from './locales/es';
-import { JobDescription, JobStatus } from './jobs/job';
+import de from './locales/de.js';
+import en, { Translation } from './locales/en.js';
+import fr from './locales/fr.js';
+import es from './locales/es.js';
+import { JobDescription, JobStatus } from './jobs/job.js';
 
 type NestedKeys<T> = T extends object
   ? {
@@ -125,10 +125,13 @@ export function translateJobOptions(locale: Locale | LocaleExtended, jobName: st
     return null;
   }
   const options = Object.keys(de.jobs.options[jobName as keyof typeof de.jobs.options]);
-  return options.reduce((pv, cv) => {
-    pv[cv] = tt(`jobs.options.${jobName}.${cv}`, locale);
-    return pv;
-  }, {} as Record<string, string>);
+  return options.reduce(
+    (pv, cv) => {
+      pv[cv] = tt(`jobs.options.${jobName}.${cv}`, locale);
+      return pv;
+    },
+    {} as Record<string, string>,
+  );
 }
 export function translateJob(locale: Locale | LocaleExtended, job: JobDescription) {
   const translation: { name: string; description: string; caution?: string } = {

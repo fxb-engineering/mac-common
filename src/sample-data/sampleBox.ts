@@ -1,4 +1,4 @@
-import type { BoxConfig } from '../box';
+import type { BoxConfig } from '../box.js';
 
 export const sampleBoxConfig = {
   NotificationEmails: [],
