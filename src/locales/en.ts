@@ -353,6 +353,7 @@ const en = {
         registered: 'reboot registered',
         scheduled: 'Server will restart in a minute',
         success: 'Reboot complete and application launched',
+        waitForOrders: 'Wait for orders to be completed',
         waitOrdersFinished: 'Wait for orders to be completed',
         waitUntilPossible: 'Wait until restart can be performed',
       },
@@ -395,6 +396,7 @@ const en = {
         notPossible: 'Device could not be restarted',
         restarted: 'Device restarted',
         sentRequest: 'Restart request sent',
+        started: 'Restart request sent',
       },
       'robot-command': {
         commandFailed: 'Command failed',
@@ -461,6 +463,7 @@ const en = {
       update: {
         allOrdersFinished: 'All orders finished',
         downloadFinished: 'Download finished',
+        downloadedFinished: 'Download finished',
         downloading: 'Downloading update',
         restartedApplications: 'Restarted applications',
         restartingApplications: 'Restarting applications',
@@ -475,6 +478,7 @@ const en = {
         credentials: 'Received valid credentials for uploading to S3',
         filesUploaded: 'Uploaded log files to S3',
         filesWritten: 'Wrote log files to disk',
+        noCredentials: 'No valid credentials for uploading to S3',
         registered: 'Upload logs job registered',
       },
     },

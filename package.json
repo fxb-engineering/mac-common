@@ -1,6 +1,6 @@
 {
   "name": "mac-common",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Provides types, products and communal data for MyAppCafé projects.",
   "type": "module",
   "exports": {

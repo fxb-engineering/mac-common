@@ -363,6 +363,7 @@ const fr: Translation = {
         registered: 'redémarrer enregistré',
         scheduled: 'Le serveur va redémarrer dans une minute',
         success: 'Redémarrage terminé et application démarrée',
+        waitForOrders: 'Attendez que les commandes soient terminées',
         waitOrdersFinished: 'Attendez que les commandes soient terminées',
         waitUntilPossible: 'Attendez que le redémarrage puisse être effectué',
       },
@@ -405,6 +406,7 @@ const fr: Translation = {
         notPossible: "L'appareil n'a pas pu être redémarré",
         restarted: 'Appareil redémarré',
         sentRequest: 'Demande de redémarrage envoyée',
+        started: 'Demande de redémarrage envoyée',
       },
       'robot-command': {
         commandFailed: 'Échec de la commande',
@@ -471,6 +473,7 @@ const fr: Translation = {
       update: {
         allOrdersFinished: 'Toutes les commandes terminées',
         downloadFinished: 'Téléchargement terminé',
+        downloadedFinished: 'Téléchargement terminé',
         downloading: 'Téléchargement de la mise à jour',
         restartedApplications: 'Applications redémarrées',
         restartingApplications: 'Redémarrer les applications',
@@ -485,6 +488,7 @@ const fr: Translation = {
         credentials: "Informations d'identification valides reçues pour le téléchargement vers S3",
         filesUploaded: 'Fichiers journaux téléchargés sur S3',
         filesWritten: 'Écrit les fichiers journaux sur le disque',
+        noCredentials: "Aucune information d'identification valide pour le téléchargement vers S3",
         registered: 'Tâche de téléchargement de journaux enregistrée',
       },
     },
