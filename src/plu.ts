@@ -229,12 +229,12 @@ export const DeProducts: ProductTranslationFile = {
   },
   1600: {
     name: 'Peppermint Mocha',
-    description: 'Epresso, Kakao, Milch, Pfefferminzsirup',
+    description: 'Espresso, Kakao, Milch, Pfefferminzsirup',
     img: `${peppermintMocha}`,
   },
   1650: {
     name: 'Iced Peppermint Mocha',
-    description: 'Eis, Epresso, Kakao, Milch, Pfefferminzsirup',
+    description: 'Eis, Espresso, Kakao, Milch, Pfefferminzsirup',
     img: `${peppermintMocha}`,
   },
   1700: {
@@ -300,7 +300,7 @@ export const DeProducts: ProductTranslationFile = {
     img: `${caramelMocha}`,
   },
   2100: {
-    name: 'Chai Latte Vanilla',
+    name: 'Vanilla Chai',
     description: 'Milch, Schaum, Chai- & Vanillesirup',
     img: `${vanillaChai}`,
   },
@@ -492,7 +492,7 @@ export const DeProducts: ProductTranslationFile = {
       name: 'Kokos',
     },
     Summer: {
-      name: 'Kokos',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Pumpkin Spice',
@@ -508,7 +508,7 @@ export const DeProducts: ProductTranslationFile = {
       name: 'Kokos',
     },
     Summer: {
-      name: 'Kokos',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Pumpkin Spice',
@@ -524,7 +524,7 @@ export const DeProducts: ProductTranslationFile = {
       name: 'Kokos',
     },
     Summer: {
-      name: 'Kokos',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Pumpkin Spice',
@@ -611,7 +611,7 @@ export const EnProducts: ProductTranslationFile = {
     img: `${cafeLatte}`,
   },
   650: {
-    name: 'Iced Cafe Latte',
+    name: 'Iced Latte',
     description: 'Espresso, milk, foam',
     img: `${cafeLatteIced}`,
   },
@@ -892,7 +892,7 @@ export const EnProducts: ProductTranslationFile = {
     img: `${flavor}`,
   },
   2310: {
-    name: 'Vanille',
+    name: 'Vanilla',
     img: `${flavor}`,
   },
   2311: {
@@ -970,7 +970,7 @@ export const EnProducts: ProductTranslationFile = {
       name: 'Coconut',
     },
     Summer: {
-      name: 'Coconut',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Pumpkin Spice',
@@ -986,7 +986,7 @@ export const EnProducts: ProductTranslationFile = {
       name: 'Coconut',
     },
     Summer: {
-      name: 'Coconut',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Pumpkin Spice',
@@ -1002,7 +1002,7 @@ export const EnProducts: ProductTranslationFile = {
       name: 'Coconut',
     },
     Summer: {
-      name: 'Coconut',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Pumpkin Spice',
@@ -1049,8 +1049,8 @@ export const FrProducts: ProductTranslationFile = {
     img: `${extraShot}`,
   },
   250: {
-    name: 'Iced Kaffee',
-    description: 'Eis, Crema',
+    name: 'Café frappé',
+    description: 'Glace, Crema',
     img: `${coffeeIced}`,
   },
   300: {
@@ -1144,7 +1144,7 @@ export const FrProducts: ProductTranslationFile = {
     img: `${caramelMocha}`,
   },
   1200: {
-    name: 'Chai vanille',
+    name: 'Vanilla Chai',
     description: 'lait, mousse, sirop de Chai et vanille',
     img: `${vanillaChai}`,
   },
@@ -1194,33 +1194,33 @@ export const FrProducts: ProductTranslationFile = {
     img: `${peppermintMocha}`,
   },
   1700: {
-    name: 'Espressom Macchiato',
-    description: 'Epresso, foam',
+    name: 'Espresso Macchiato',
+    description: 'Espresso, mousse',
     img: `${hotChocolate}`,
   },
   1800: {
     name: 'Americano',
-    description: 'Epresso, water',
+    description: 'Espresso, eau',
     img: `${americano}`,
   },
   1850: {
     name: 'Iced Americano',
-    description: 'Epresso, water',
+    description: 'Glace, Espresso, eau',
     img: `${americano}`,
   },
   1900: {
     name: 'Caramel Latte',
-    description: 'Espresso, milk, foam, caramel syrup, vanilla syrup',
+    description: 'Espresso, lait, mousse, sirop de caramel et vanille',
     img: `${caramelMacchiato}`,
   },
   1950: {
     name: 'Iced Caramel Latte',
-    description: 'Espresso, milk, foam, caramel syrup, vanilla syrup',
+    description: 'Glace, Espresso, lait, mousse, sirop de caramel et vanille',
     img: `${caramelMacchiato}`,
   },
   2000: {
     name: 'Caramel Mocha',
-    description: 'Espresso, cocoa, milk, caramel syrup',
+    description: 'Espresso, Cacao, lait, sirop de caramel',
     img: `${caramelMocha}`,
   },
   2001: {
@@ -1252,12 +1252,12 @@ export const FrProducts: ProductTranslationFile = {
   },
   2050: {
     name: 'Iced Caramel Mocha',
-    description: 'Espresso, cocoa, milk, caramel syrup',
+    description: 'Glace, Espresso, Cacao, lait, sirop de caramel',
     img: `${caramelMocha}`,
   },
   2100: {
     name: 'Vanilla Chai',
-    description: 'Milk, foam, chai syrup, vanilla syrup',
+    description: 'Lait, mousse, sirop de Chai et vanille',
     img: `${vanillaChai}`,
   },
   2101: {
@@ -1310,7 +1310,7 @@ export const FrProducts: ProductTranslationFile = {
   },
   2150: {
     name: 'Iced Vanilla Chai',
-    description: 'Milk, foam, chai syrup, vanilla syrup',
+    description: 'Glace, lait, mousse, sirop de Chai et vanille',
     img: `${vanillaChai}`,
   },
   2203: {
@@ -1448,7 +1448,7 @@ export const FrProducts: ProductTranslationFile = {
       name: 'Noix de coco',
     },
     Summer: {
-      name: 'Noix de coco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Citrouille épicée',
@@ -1464,7 +1464,7 @@ export const FrProducts: ProductTranslationFile = {
       name: 'Noix de coco',
     },
     Summer: {
-      name: 'Noix de coco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Citrouille épicée',
@@ -1480,7 +1480,7 @@ export const FrProducts: ProductTranslationFile = {
       name: 'Noix de coco',
     },
     Summer: {
-      name: 'Noix de coco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Citrouille épicée',
@@ -1628,7 +1628,7 @@ export const EsProducts: ProductTranslationFile = {
   },
   1250: {
     name: 'Iced Vanilla Chai',
-    description: 'Hielo, Leche, espuma, sirope de Chai y de vainilla',
+    description: 'Hielo, leche, espuma, sirope de Chai y de vainilla',
     img: `${vanillaChai}`,
   },
   1300: {
@@ -1672,33 +1672,33 @@ export const EsProducts: ProductTranslationFile = {
     img: `${peppermintMocha}`,
   },
   1700: {
-    name: 'Espressom Macchiato',
-    description: 'Epresso, foam',
+    name: 'Espresso Macchiato',
+    description: 'Espresso, espuma',
     img: `${hotChocolate}`,
   },
   1800: {
     name: 'Americano',
-    description: 'Epresso, water',
+    description: 'Espresso, agua',
     img: `${americano}`,
   },
   1850: {
     name: 'Iced Americano',
-    description: 'Epresso, water',
+    description: 'Hielo, Espresso, agua',
     img: `${americano}`,
   },
   1900: {
     name: 'Caramel Latte',
-    description: 'Espresso, milk, foam, caramel syrup, vanilla syrup',
+    description: 'Espresso, leche, espuma, sirope de caramelo y de vainilla',
     img: `${caramelMacchiato}`,
   },
   1950: {
     name: 'Iced Caramel Latte',
-    description: 'Espresso, milk, foam, caramel syrup, vanilla syrup',
+    description: 'Hielo, Espresso, leche, espuma, sirope de caramelo y de vainilla',
     img: `${caramelMacchiato}`,
   },
   2000: {
     name: 'Caramel Moka',
-    description: 'Espresso, cocoa, milk, caramel syrup',
+    description: 'Espresso, cacao, leche, sirope de caramelo',
     img: `${caramelMocha}`,
   },
   2001: {
@@ -1714,7 +1714,7 @@ export const EsProducts: ProductTranslationFile = {
     img: `${milk}`,
   },
   2010: {
-    name: 'negro',
+    name: 'Negro',
   },
   2011: {
     name: 'Leche',
@@ -1730,12 +1730,12 @@ export const EsProducts: ProductTranslationFile = {
   },
   2050: {
     name: 'Iced Caramel Moka',
-    description: 'Espresso, cocoa, milk, caramel syrup',
+    description: 'Hielo, Espresso, cacao, leche, sirope de caramelo',
     img: `${caramelMocha}`,
   },
   2100: {
-    name: 'Chai Latte Vanilla',
-    description: 'Milch, Schaum, Chai- & Vanillesirup',
+    name: 'Vanilla Chai',
+    description: 'Leche, espuma, sirope de Chai y de vainilla',
     img: `${vanillaChai}`,
   },
   2101: {
@@ -1788,7 +1788,7 @@ export const EsProducts: ProductTranslationFile = {
   },
   2150: {
     name: 'Iced Vanilla Chai',
-    description: 'Milk, foam, chai syrup, vanilla syrup',
+    description: 'Hielo, leche, espuma, sirope de Chai y de vainilla',
     img: `${vanillaChai}`,
   },
   2203: {
@@ -1800,7 +1800,7 @@ export const EsProducts: ProductTranslationFile = {
     img: `${flavor}`,
   },
   2205: {
-    name: 'Karamell',
+    name: 'Caramelo',
     img: `${flavor}`,
   },
   2206: {
@@ -1816,7 +1816,7 @@ export const EsProducts: ProductTranslationFile = {
     img: `${flavor}`,
   },
   2209: {
-    name: 'Karamell',
+    name: 'Caramelo',
     img: `${flavor}`,
   },
   2210: {
@@ -1878,7 +1878,7 @@ export const EsProducts: ProductTranslationFile = {
       name: 'Coco',
     },
     Summer: {
-      name: 'Malvavisco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Calabaza especiada',
@@ -1894,7 +1894,7 @@ export const EsProducts: ProductTranslationFile = {
       name: 'Coco',
     },
     Summer: {
-      name: 'Malvavisco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Calabaza especiada',
@@ -1910,7 +1910,7 @@ export const EsProducts: ProductTranslationFile = {
       name: 'Coco',
     },
     Summer: {
-      name: 'Malvavisco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Calabaza especiada',
@@ -1926,7 +1926,7 @@ export const EsProducts: ProductTranslationFile = {
       name: 'Coco',
     },
     Summer: {
-      name: 'Coco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Calabaza especiada',
@@ -1942,7 +1942,7 @@ export const EsProducts: ProductTranslationFile = {
       name: 'Coco',
     },
     Summer: {
-      name: 'Coco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Calabaza especiada',
@@ -1958,7 +1958,7 @@ export const EsProducts: ProductTranslationFile = {
       name: 'Coco',
     },
     Summer: {
-      name: 'Coco',
+      name: 'Marshmallow',
     },
     Autumn: {
       name: 'Calabaza especiada',
